@@ -7152,7 +7152,7 @@ Tilemap:
       - {fileID: 2128247009, guid: 7f13a77d9dd01cd40be8991b3113a8bb, type: 3}
       - {fileID: -1219072366, guid: 7f13a77d9dd01cd40be8991b3113a8bb, type: 3}
       - {fileID: 1888467840, guid: 7f13a77d9dd01cd40be8991b3113a8bb, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 5, y: 6, z: 0}
@@ -7273,7 +7273,7 @@ Tilemap:
       - {fileID: 2128247009, guid: 7f13a77d9dd01cd40be8991b3113a8bb, type: 3}
       - {fileID: -1219072366, guid: 7f13a77d9dd01cd40be8991b3113a8bb, type: 3}
       - {fileID: 1888467840, guid: 7f13a77d9dd01cd40be8991b3113a8bb, type: 3}
-      m_AnimationSpeed: 10
+      m_AnimationSpeed: 10.000001
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 4, y: 8, z: 0}
@@ -7306,7 +7306,7 @@ Tilemap:
       - {fileID: -638156073, guid: 7f13a77d9dd01cd40be8991b3113a8bb, type: 3}
       - {fileID: -44654411, guid: 7f13a77d9dd01cd40be8991b3113a8bb, type: 3}
       - {fileID: -1679157565, guid: 7f13a77d9dd01cd40be8991b3113a8bb, type: 3}
-      m_AnimationSpeed: 10.000001
+      m_AnimationSpeed: 10
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 1, y: 9, z: 0}
@@ -7539,6 +7539,7 @@ GameObject:
   - component: {fileID: 1766456393}
   - component: {fileID: 1766456396}
   - component: {fileID: 1766456395}
+  - component: {fileID: 1766456397}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -7675,6 +7676,18 @@ CapsuleCollider2D:
   m_Offset: {x: -0.09478474, y: 0.9787956}
   m_Size: {x: 0.6455431, y: 1.9}
   m_Direction: 0
+--- !u!114 &1766456397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766456392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad4eaa787662da439c7d331a4213e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1962150831
 GameObject:
   m_ObjectHideFlags: 0
